@@ -1,8 +1,8 @@
 const mongoose = require("mongoose")
 
 const connectDatabase = async () => {
-    const conn = await mongoose.connect("mongodb://localhost:27017/newdb")
-    console.log("fffffffff")
+    const conn = await mongoose.connect(process.env.MONGO_URI)
+    console.log("fffff")
 }
 
 
