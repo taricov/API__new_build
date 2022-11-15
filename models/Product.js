@@ -13,11 +13,11 @@ const productSchema = new mongoose.Schema({
         type: String,
         required: [true, "Please Enter a Description"]
     },
-    short_description: {
+    shortDescription: {
         type: String,
         required: false
     },
-    main_image: {
+    mainImage: {
         type: String,
         required: false,
     },
